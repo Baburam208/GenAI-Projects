@@ -1,0 +1,8 @@
+.env
+./chatbot-using-gemini/.chatbot_gemini/*
+./chatbot-using-gemini/__pycache__/*
+./chatbot-using-gemini/.env
+
+./document-based-chatbot/.document_chatbot_env/*
+./document-based-chatbot/data
+./document-based-chatbot/VectorStore
