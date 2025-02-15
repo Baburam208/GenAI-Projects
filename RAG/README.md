@@ -1,5 +1,15 @@
 ## This is a RAG project
 
+Create `.env` file to store the api key.
+
+Sample `.env` file contains api key as follows.
+
+```
+OPENAI_API_KEY = "Your-api-key-here"
+GOOGLE_API_KEY = "Your-api-key-here"
+HUGGINGFACEHUB_ACCESS_TOKEN = "Your-api-key-here"
+```
+
 ### Tools used
 1. We have used Gemini chat model `ChatGoogleGenerativeAI` with model `gemini-1.5-pro`.
 2. For vector store we have used FAISS (Facebook AI Similarity Serach).
